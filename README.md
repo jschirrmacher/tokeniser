@@ -15,7 +15,7 @@ The only requirement is to use ES6. It makes code easier to read (in my opinion)
 ## Installation
 
 ```
-npm i -S tokeniser
+npm i -S js-tokeniser
 ```
 
 ## Usage
