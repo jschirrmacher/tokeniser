@@ -21,7 +21,7 @@ npm i -S tokeniser
 ## Usage
 
 ```javascript
-const tokeniser = require('tokeniser')
+const tokeniser = require('js-tokeniser')
 
 let result = tokeniser('// Test file\nName = Test\nAuthor = "Joachim Schirrmacher"',
   [
