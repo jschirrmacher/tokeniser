@@ -1,6 +1,6 @@
 {
   "name": "js-tokeniser",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Tokenizes a text from left to right and returns the list of tokens with their types.",
   "main": "index.js",
   "scripts": {
