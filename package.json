@@ -1,5 +1,5 @@
 {
-  "name": "tokeniser",
+  "name": "js-tokeniser",
   "version": "1.0.0",
   "description": "Tokenizes a text from left to right and returns the list of tokens with their types.",
   "main": "index.js",
