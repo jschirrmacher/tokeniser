@@ -4,7 +4,7 @@
   "description": "Tokenizes a text from left to right and returns the list of tokens with their types.",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "node_modules/.bin/mocha test"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/jschirrmacher/tokeniser/issues"
   },
-  "homepage": "https://github.com/jschirrmacher/tokeniser#readme"
+  "homepage": "https://github.com/jschirrmacher/tokeniser#readme",
+  "devDependencies": {
+    "mocha": "^3.4.2",
+    "should": "^11.2.1"
+  }
 }
