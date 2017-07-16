@@ -1,0 +1,24 @@
+{
+  "name": "tokeniser",
+  "version": "1.0.0",
+  "description": "Tokenizes a text from left to right and returns the list of tokens with their types.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jschirrmacher/tokeniser.git"
+  },
+  "keywords": [
+    "token",
+    "tokenizer",
+    "tokeniser"
+  ],
+  "author": "Joachim Schirrmacher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jschirrmacher/tokeniser/issues"
+  },
+  "homepage": "https://github.com/jschirrmacher/tokeniser#readme"
+}
