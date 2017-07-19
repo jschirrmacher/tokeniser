@@ -34,7 +34,7 @@ console.log(result)
 
 prints the following output:
 
-```
+```javascript
 [ { type: 'comment',
     matches: 
      [ '// Test file',
@@ -55,3 +55,6 @@ prints the following output:
        index: 0,
        input: '\nAuthor = "Joachim Schirrmacher"' ] } ]
 ```
+
+As you see, you don't only get the three recognised tokens, but also the matches that are found. This makes it
+easy to handle a lot without defining separate tokens but instead use patterns (like in 'definition').
