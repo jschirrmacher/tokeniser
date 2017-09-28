@@ -35,26 +35,16 @@ console.log(result)
 prints the following output:
 
 ```javascript
-[ { type: 'comment',
-    matches: 
-     [ '// Test file',
-       index: 0,
-       input: '// Test file\nName = Test\nAuthor = "Joachim Schirrmacher"' ] },
-  { type: 'definition',
-    matches: 
-     [ '\nName = Test',
-       'Name',
-       'Test',
-       index: 0,
-       input: '\nName = Test\nAuthor = "Joachim Schirrmacher"' ] },
-  { type: 'definition',
-    matches: 
-     [ '\nAuthor = "Joachim Schirrmacher"',
-       'Author',
-       '"Joachim Schirrmacher"',
-       index: 0,
-       input: '\nAuthor = "Joachim Schirrmacher"' ] } ]
+[ { type: 'comment', matches: [] },
+  { type: 'definition', matches: [ 'Name', 'Test' ] },
+  { type: 'definition', matches: [ 'Author', '"Joachim Schirrmacher"' ] }
+]
 ```
 
 As you see, you don't only get the three recognised tokens, but also the matches that are found. This makes it
 easy to handle a lot without defining separate tokens but instead use patterns (like in 'definition').
+
+## Updating from version 1.0.x
+
+In previous versions, tokeniser returned the unfiltered result from `String.match()`, which contains an `input` and an `index` attribute as well as the whole match.
+These elements are stripped in version beginning at 1.1.0, so if you need this side-effect, be sure to modify your code.
